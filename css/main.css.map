@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/base/_reset.scss",
+        "../scss/base/_global.scss",
+        "../scss/components/_footer.scss",
+        "../scss/components/_navbar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
