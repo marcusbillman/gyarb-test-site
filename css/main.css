@@ -74,4 +74,12 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+html {
+  --clr-accent: #cb552f;
+  --clr-body-text: #2f2f2f;
+  --clr-grey-1: #f8f8f8;
+  --clr-grey-5: #c4c4c4;
+  --clr-background: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
