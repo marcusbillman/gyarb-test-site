@@ -5,3 +5,9 @@ html {
   --clr-grey-5: #c4c4c4;
   --clr-background: #ffffff;
 }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
