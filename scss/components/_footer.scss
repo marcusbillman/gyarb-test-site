@@ -1,0 +1,24 @@
+.footer {
+  background: var(--clr-grey-1);
+  font-weight: 400;
+  padding: 3.2rem 0;
+  &__wordmark {
+    font-size: var(--fs-wordmark);
+    margin-bottom: 0.8rem;
+  }
+  &__links {
+    display: flex;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+  }
+  &__link {
+    display: inline-block;
+    color: var(--clr-body-text);
+    line-height: 1;
+    &:not(:last-child) {
+      margin-bottom: 0.8rem;
+    }
+  }
+}
