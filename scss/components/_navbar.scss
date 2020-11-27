@@ -38,8 +38,18 @@
     position: relative;
     border-radius: 1000px;
     padding: 0.4rem 0;
-    &-input:not(:placeholder-shown) + &-placeholder {
-      display: none;
+    &-input {
+      width: 24rem;
+      border-radius: 1000px;
+      border: 1px solid var(--clr-grey-5);
+      padding: 0.4rem 1.6rem;
+      &:focus {
+        outline: none;
+        border-color: var(--clr-accent);
+      }
+      &:not(:placeholder-shown) + .navbar__search-placeholder {
+        display: none;
+      }
     }
   }
   &__search-placeholder {
