@@ -157,8 +157,8 @@ li {
   margin-left: 3.2rem;
 }
 
-article {
-  margin-top: 6.4rem;
+main {
+  padding: 6.4rem 0;
 }
 
 .article-cover {
@@ -329,7 +329,6 @@ article {
   width: 30rem;
   background: var(--clr-grey-1);
   padding: 1.6rem;
-  margin-top: 6.4rem;
 }
 
 .related h3 {
