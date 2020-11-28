@@ -1,6 +1,9 @@
 .article-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   span {
     display: block;
+    margin-bottom: 0.8rem;
   }
   &__key {
     font-weight: 500;
