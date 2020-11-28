@@ -1,6 +1,10 @@
 .related {
+  position: sticky;
+  top: 3.2rem;
+  width: 30rem;
   background: var(--clr-grey-1);
   padding: 1.6rem;
+  margin-top: 6.4rem;
   h3 {
     margin-top: 0;
   }
