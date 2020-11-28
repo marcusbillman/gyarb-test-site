@@ -72,8 +72,13 @@ li {
   &--columns {
     display: flex;
   }
-  .column:not(:first-child) {
-    margin-left: 3.2rem;
+  .column {
+    &--indented {
+      padding-left: 10vw;
+    }
+    &:not(:first-child) {
+      margin-left: 3.2rem;
+    }
   }
 }
 
