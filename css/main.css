@@ -191,6 +191,14 @@ main {
   padding: 3.2rem 0;
 }
 
+.footer__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-right: 33.2rem;
+}
+
 .footer__wordmark {
   font-size: var(--fs-wordmark);
   margin-bottom: 0.8rem;
@@ -200,26 +208,19 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.footer__column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__link {
-  display: inline-block;
+  display: block;
   color: var(--clr-body-text);
   line-height: 1;
 }
 
 .footer__link:not(:last-child) {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .navbar {

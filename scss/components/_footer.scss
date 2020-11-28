@@ -2,23 +2,25 @@
   background: var(--clr-grey-1);
   font-weight: 400;
   padding: 3.2rem 0;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 33.2rem;
+  }
   &__wordmark {
     font-size: var(--fs-wordmark);
     margin-bottom: 0.8rem;
   }
   &__links {
     display: flex;
-  }
-  &__column {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
   }
   &__link {
-    display: inline-block;
+    display: block;
     color: var(--clr-body-text);
     line-height: 1;
     &:not(:last-child) {
-      margin-bottom: 0.8rem;
+      margin-bottom: 1.2rem;
     }
   }
 }
