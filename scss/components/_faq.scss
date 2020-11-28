@@ -1,0 +1,36 @@
+.faq {
+  background: var(--clr-grey-1);
+  border: 1px solid transparent;
+  list-style: none;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
+  &__question {
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    cursor: pointer;
+    &::-webkit-details-marker {
+      display: none;
+    }
+    &::after {
+      content: "expand_more";
+      height: min-content;
+      font-family: "Material Icons";
+      font-size: inherit;
+      margin-left: 0.8rem;
+    }
+  }
+  &__answer {
+    margin-top: 1.6rem;
+  }
+  &[open] {
+    border-color: var(--clr-accent);
+    .faq__question {
+      color: var(--clr-accent);
+      font-weight: 500;
+      &::after {
+        transform: rotate(0.5turn);
+      }
+    }
+  }
+}
