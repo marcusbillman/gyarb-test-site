@@ -97,15 +97,21 @@
           </details>
           <h2>Kontakta oss</h2>
           <form action="" class="contact-form">
-            <label for="first-name">Förnamn</label>
-            <input type="text" id="first-name" />
-            <label for="last-name">Efternamn</label>
-            <input type="text" id="last-name" />
+            <div class="contact-form__flex-wrapper">
+              <div class="contact-form__field-wrapper">
+                <label for="first-name">Förnamn</label>
+                <input type="text" id="first-name" required />
+              </div>
+              <div class="contact-form__field-wrapper">
+                <label for="last-name">Efternamn</label>
+                <input type="text" id="last-name" />
+              </div>
+            </div>
             <label for="email">Din e-post</label>
-            <input type="email" id="email" />
+            <input type="email" id="email" required />
             <label for="message">Meddelande</label>
-            <input type="text" id="message" />
-            <input type="submit" value="Skicka" />
+            <textarea id="message" rows="4" required></textarea>
+            <button type="submit" class="contact-form__submit">Skicka</button>
           </form>
         </article>
       </div>

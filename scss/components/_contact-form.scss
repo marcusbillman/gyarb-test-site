@@ -1,0 +1,52 @@
+.contact-form {
+  &__flex-wrapper {
+    display: flex;
+    .contact-form__field-wrapper:not(:last-child) {
+      margin-right: 1.6rem;
+    }
+  }
+  label {
+    display: block;
+    font-size: var(--fs-small-text);
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    background: var(--clr-grey-1);
+    border: 1px solid var(--clr-grey-5);
+    border-radius: 0;
+    padding: 0.8rem;
+    margin-bottom: 1.6rem;
+    &:focus {
+      outline: none;
+      border-color: var(--clr-accent);
+    }
+  }
+  textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  &__submit {
+    display: flex;
+    align-items: center;
+    background: var(--clr-accent);
+    color: white;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 0.8rem 2.4rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    &::after {
+      display: block;
+      content: "arrow_forward";
+      font-family: "Material Icons";
+      font-size: inherit;
+      margin-left: 1.2rem;
+    }
+  }
+}
