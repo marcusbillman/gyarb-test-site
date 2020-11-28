@@ -169,8 +169,16 @@ article {
   margin-bottom: 3.2rem;
 }
 
+.article-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
 .article-info span {
   display: block;
+  margin-bottom: 0.8rem;
 }
 
 .article-info__key {
@@ -358,6 +366,7 @@ article {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: var(--clr-grey-1);
+  margin: 3.2rem 0;
   padding: 2.4rem;
 }
 
