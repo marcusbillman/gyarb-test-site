@@ -297,7 +297,7 @@ main.container {
 }
 
 .navbar__search-input {
-  width: 24rem;
+  width: 30rem;
   border-radius: 1000px;
   border: 1px solid var(--clr-grey-5);
   padding: 0.4rem 1.6rem;
