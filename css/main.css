@@ -153,6 +153,10 @@ li {
   display: flex;
 }
 
+.container .column--indented {
+  padding-left: 10vw;
+}
+
 .container .column:not(:first-child) {
   margin-left: 3.2rem;
 }
@@ -162,7 +166,10 @@ main {
 }
 
 .article-cover {
-  width: 100%;
+  position: relative;
+  left: -10vw;
+  width: calc(100% + 10vw);
+  max-width: unset;
   height: 30rem;
   -o-object-fit: cover;
      object-fit: cover;

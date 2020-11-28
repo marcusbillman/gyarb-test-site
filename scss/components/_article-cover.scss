@@ -1,5 +1,8 @@
 .article-cover {
-  width: 100%;
+  position: relative;
+  left: -10vw;
+  width: calc(100% + 10vw);
+  max-width: unset;
   height: 30rem;
   object-fit: cover;
   margin-bottom: 3.2rem;
