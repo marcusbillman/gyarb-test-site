@@ -145,6 +145,7 @@ li {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .container--columns {
@@ -161,8 +162,9 @@ li {
   margin-left: 3.2rem;
 }
 
-main {
-  padding: 6.4rem 0;
+main.container {
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
 }
 
 .article-cover {
