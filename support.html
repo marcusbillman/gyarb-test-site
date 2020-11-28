@@ -19,106 +19,131 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar__top">
-          <span class="navbar__logo">LOREM-FÖRETAGET</span>
+          <img src="img/logo.svg" alt="Logo" class="navbar__logo" />
+          <span class="navbar__wordmark">LOREM-FÖRETAGET</span>
         </div>
         <div class="navbar__bottom">
           <div class="navbar__links">
             <a href="" class="navbar__link">Hem</a>
-            <a href="" class="navbar__link navbar__link--active">Artikel</a>
+            <a href="" class="navbar__link">Artikel</a>
             <a href="" class="navbar__link">Annan sida</a>
-            <a href="" class="navbar__link">Kundservice</a>
+            <a href="" class="navbar__link navbar__link--active">Kundservice</a>
             <a href="" class="navbar__link">Om oss</a>
           </div>
-          <input type="text" class="navbar__search" />
+          <div class="navbar__search">
+            <input type="text" placeholder=" " class="navbar__search-input" />
+            <div class="navbar__search-placeholder">
+              <i class="material-icons">search</i>
+              <span>Sök</span>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-    <main class="container container--grid">
-      <h1>Kundservice</h1>
-      <p class="preamble">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-      <img src="" alt="" class="article-cover" />
-      <h2>Vanliga frågor (FAQ)</h2>
-      <details class="faq">
-        <summary class="faq__question">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-        </summary>
-        <div class="faq__answer">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </div>
-      </details>
-      <details class="faq">
-        <summary class="faq__question">
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam?
-        </summary>
-        <div class="faq__answer">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </div>
-      </details>
-      <details class="faq">
-        <summary class="faq__question">
-          Quis nostrud exercitation ullamco laboris?
-        </summary>
-        <div class="faq__answer">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </div>
-      </details>
-      <details class="faq">
-        <summary class="faq__question">
-          Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor?
-        </summary>
-        <div class="faq__answer">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </div>
-      </details>
-      <h2>Kontakta oss</h2>
-      <form action="" class="contact-form">
-        <label for="first-name">Förnamn</label>
-        <input type="text" id="first-name" />
-        <label for="last-name">Efternamn</label>
-        <input type="text" id="last-name" />
-        <label for="email">Din e-post</label>
-        <input type="email" id="email" />
-        <label for="message">Meddelande</label>
-        <input type="text" id="message" />
-        <input type="submit" value="Skicka" />
-      </form>
-      <aside class="related">
-        <h3>Relaterade sidor</h3>
-        <a href="" class="related__link">Villkor</a>
-        <a href="" class="related__link">Integritetspolicy</a>
-        <a href="" class="related__link">Om oss</a>
-      </aside>
+    <main class="container container--columns">
+      <div class="column column--indented">
+        <article>
+          <h1>Kundservice</h1>
+          <p class="preamble">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img src="img/article-cover.jpg" alt="" class="article-cover" />
+          <h2>Vanliga frågor (FAQ)</h2>
+          <details class="faq">
+            <summary class="faq__question">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+            </summary>
+            <div class="faq__answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </details>
+          <details class="faq">
+            <summary class="faq__question">
+              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam?
+            </summary>
+            <div class="faq__answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </details>
+          <details class="faq">
+            <summary class="faq__question">
+              Quis nostrud exercitation ullamco laboris?
+            </summary>
+            <div class="faq__answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </details>
+          <details class="faq">
+            <summary class="faq__question">
+              Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor?
+            </summary>
+            <div class="faq__answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </details>
+          <h2>Kontakta oss</h2>
+          <form action="" class="contact-form">
+            <label for="first-name">Förnamn</label>
+            <input type="text" id="first-name" />
+            <label for="last-name">Efternamn</label>
+            <input type="text" id="last-name" />
+            <label for="email">Din e-post</label>
+            <input type="email" id="email" />
+            <label for="message">Meddelande</label>
+            <input type="text" id="message" />
+            <input type="submit" value="Skicka" />
+          </form>
+        </article>
+      </div>
+      <div class="column">
+        <aside class="related">
+          <h3>Relaterade sidor</h3>
+          <ul class="related__links">
+            <li>
+              <a href="" class="related__link">Villkor</a>
+            </li>
+            <li>
+              <a href="" class="related__link">Integritetspolicy</a>
+            </li>
+            <li>
+              <a href="" class="related__link">Om oss</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
     </main>
     <footer class="footer">
-      <div class="container container--grid">
-        <h1>LOREM-FÖRETAGET</h1>
-        <span>&copy; 2020</span>
-        <div class="footer__links">
-          <div class="footer__column">
-            <a href="" class="footer__link">Kundservice</a>
-            <a href="" class="footer__link">Om oss</a>
-            <a href="" class="footer__link">Sitemap</a>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__text">
+            <h1 class="footer__wordmark">LOREM-FÖRETAGET</h1>
+            <span>&copy; 2020</span>
           </div>
-          <div class="footer__column">
-            <a href="" class="footer__link">Villkor</a>
-            <a href="" class="footer__link">Integritetspolicy</a>
-            <a href="" class="footer__link">Cookies</a>
+          <div class="footer__links">
+            <div class="footer__column">
+              <a href="" class="footer__link">Kundservice</a>
+              <a href="" class="footer__link">Om oss</a>
+              <a href="" class="footer__link">Sitemap</a>
+            </div>
+            <div class="footer__column">
+              <a href="" class="footer__link">Villkor</a>
+              <a href="" class="footer__link">Integritetspolicy</a>
+              <a href="" class="footer__link">Cookies</a>
+            </div>
           </div>
         </div>
       </div>
