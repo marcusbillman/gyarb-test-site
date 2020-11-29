@@ -4,6 +4,9 @@
   list-style: none;
   padding: 1.6rem;
   margin-bottom: 1.6rem;
+  &:focus-within {
+    border-color: var(--clr-accent);
+  }
   &__question {
     display: flex;
     justify-content: space-between;
