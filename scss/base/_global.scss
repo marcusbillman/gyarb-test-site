@@ -12,6 +12,14 @@ html {
   --fs-preamble: 2.2rem;
   --fs-body-text: 1.8rem;
   --fs-small-text: 1.4rem;
+
+  &.dark-theme {
+    --clr-accent: #ea8969;
+    --clr-body-text: #ffffff;
+    --clr-grey-1: #212121;
+    --clr-grey-5: #353535;
+    --clr-background: #121212;
+  }
 }
 
 body {
