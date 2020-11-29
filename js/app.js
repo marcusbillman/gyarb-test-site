@@ -12,6 +12,16 @@ for (const entry of entries) {
   urlParams[key] = value;
 }
 
-if (urlParams.t) {
+if (urlParams.t == 1) {
   htmlEl.classList.add("dark-theme");
 }
+
+window.addEventListener("load", function () {
+  if (urlParams.t == 1) {
+    const aEls = document.querySelectorAll("a");
+
+    for (const aEl of aEls) {
+      aEl.href = aEl.href.replace(/\?.*/, "") + "?t=1";
+    }
+  }
+});
