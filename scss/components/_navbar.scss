@@ -40,6 +40,8 @@
     padding: 0.4rem 0;
     &-input {
       width: 30rem;
+      background: var(--clr-background);
+      color: var(--clr-body-text);
       border-radius: 1000px;
       border: 1px solid var(--clr-grey-5);
       padding: 0.4rem 1.6rem;

@@ -23,6 +23,7 @@ html {
 }
 
 body {
+  background: var(--clr-background);
   color: var(--clr-body-text);
   font-family: "Hind", sans-serif;
   font-size: var(--fs-body-text);
