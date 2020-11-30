@@ -163,7 +163,7 @@ main.container {
 }
 
 @media screen and (min-width: 600px) {
-  .column--indented {
+  .column:first-child {
     padding-left: 10vw;
     padding-right: 10vw;
   }
@@ -175,7 +175,7 @@ main.container {
     display: -ms-flexbox;
     display: flex;
   }
-  .container--columns .column--indented {
+  .container--columns .column {
     padding-right: 0;
   }
   .container--columns .column:not(:first-child) {
