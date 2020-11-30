@@ -338,12 +338,8 @@ main.container {
   padding: 3.2rem 0;
 }
 
-.footer__wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  margin-right: 33.2rem;
+.footer__text {
+  width: 100%;
 }
 
 .footer__wordmark {
@@ -358,6 +354,12 @@ main.container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
+  margin-top: 3.2rem;
+}
+
+.footer__column {
+  width: 100%;
 }
 
 .footer__link {
@@ -368,6 +370,27 @@ main.container {
 
 .footer__link:not(:last-child) {
   margin-bottom: 1.2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 10vw;
+  }
+  .footer__links {
+    margin-top: 0;
+  }
+  .footer__column {
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__wrapper {
+    margin-right: 33.2rem;
+  }
 }
 
 .navbar {
