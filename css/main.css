@@ -163,7 +163,7 @@ main.container {
 }
 
 @media screen and (min-width: 600px) {
-  .column:first-child {
+  .column {
     padding-left: 10vw;
     padding-right: 10vw;
   }
@@ -179,6 +179,7 @@ main.container {
     padding-right: 0;
   }
   .container--columns .column:not(:first-child) {
+    padding-left: 0;
     margin-left: 3.2rem;
   }
 }
@@ -474,6 +475,7 @@ main.container {
 .related {
   background: var(--clr-grey-1);
   padding: 1.6rem;
+  margin-top: 3.2rem;
 }
 
 .related h3 {
@@ -505,6 +507,7 @@ main.container {
     position: sticky;
     top: 3.2rem;
     width: 30rem;
+    margin-top: 0;
   }
 }
 
