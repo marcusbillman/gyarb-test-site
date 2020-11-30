@@ -1,7 +1,4 @@
 .related {
-  position: sticky;
-  top: 3.2rem;
-  width: 30rem;
   background: var(--clr-grey-1);
   padding: 1.6rem;
   h3 {
@@ -20,5 +17,13 @@
       font-size: inherit;
       margin-right: 0.8rem;
     }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .related {
+    position: sticky;
+    top: 3.2rem;
+    width: 30rem;
   }
 }
