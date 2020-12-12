@@ -217,6 +217,10 @@ main.container {
   display: flex;
 }
 
+.contact-form__flex-wrapper .contact-form__field-wrapper {
+  width: 100%;
+}
+
 .contact-form__flex-wrapper .contact-form__field-wrapper:not(:last-child) {
   margin-right: 1.6rem;
 }

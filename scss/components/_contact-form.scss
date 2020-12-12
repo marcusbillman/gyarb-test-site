@@ -1,8 +1,11 @@
 .contact-form {
   &__flex-wrapper {
     display: flex;
-    .contact-form__field-wrapper:not(:last-child) {
-      margin-right: 1.6rem;
+    .contact-form__field-wrapper {
+      width: 100%;
+      &:not(:last-child) {
+        margin-right: 1.6rem;
+      }
     }
   }
   label {
