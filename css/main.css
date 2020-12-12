@@ -80,6 +80,7 @@ html {
   --clr-body-text: #2f2f2f;
   --clr-grey-1: #f8f8f8;
   --clr-grey-5: #c4c4c4;
+  --clr-grey-8: #767676;
   --clr-background: #ffffff;
   --fs-h1: 4.8rem;
   --fs-h2: 2.4rem;
@@ -95,6 +96,7 @@ html.dark-theme {
   --clr-body-text: #ffffff;
   --clr-grey-1: #212121;
   --clr-grey-5: #353535;
+  --clr-grey-8: #8d8d8d;
   --clr-background: #121212;
 }
 
@@ -209,6 +211,34 @@ main.container {
 
 .article-info__key {
   font-weight: 500;
+}
+
+.breadcrumb ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb li {
+  margin-bottom: 0;
+}
+
+.breadcrumb li:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: ">";
+  color: var(--clr-grey-8);
+  margin-left: 0.5rem;
+}
+
+.breadcrumb__link {
+  color: var(--clr-grey-8);
+  text-decoration: none;
 }
 
 .contact-form__flex-wrapper {
