@@ -322,10 +322,6 @@ main.container {
   margin-top: 1.6rem;
 }
 
-.faq[open] {
-  border-color: var(--clr-accent);
-}
-
 .faq[open] .faq__question {
   color: var(--clr-accent);
   font-weight: 500;

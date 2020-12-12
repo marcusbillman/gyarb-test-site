@@ -26,14 +26,11 @@
   &__answer {
     margin-top: 1.6rem;
   }
-  &[open] {
-    border-color: var(--clr-accent);
-    .faq__question {
-      color: var(--clr-accent);
-      font-weight: 500;
-      &::after {
-        transform: rotate(0.5turn);
-      }
+  &[open] .faq__question {
+    color: var(--clr-accent);
+    font-weight: 500;
+    &::after {
+      transform: rotate(0.5turn);
     }
   }
 }
