@@ -11,6 +11,9 @@
     justify-content: center;
     margin-bottom: 1.6rem;
   }
+  &__logo {
+    color: var(--clr-accent);
+  }
   &__wordmark {
     color: var(--clr-accent);
     font-family: "Montserrat", sans-serif;

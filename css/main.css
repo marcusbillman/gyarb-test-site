@@ -448,6 +448,10 @@ main.container {
   margin-bottom: 1.6rem;
 }
 
+.navbar__logo {
+  color: var(--clr-accent);
+}
+
 .navbar__wordmark {
   color: var(--clr-accent);
   font-family: "Montserrat", sans-serif;
