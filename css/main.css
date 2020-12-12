@@ -504,7 +504,7 @@ main.container {
 
 .navbar__search {
   position: relative;
-  width: 30rem;
+  width: calc(100% - 32px);
   border-radius: 1000px;
   padding: 0.4rem 0;
 }
@@ -568,6 +568,9 @@ main.container {
   .navbar__links {
     padding: 0;
     margin: 0;
+  }
+  .navbar__search {
+    width: 30rem;
   }
 }
 
