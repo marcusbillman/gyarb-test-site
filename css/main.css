@@ -332,6 +332,7 @@ main.container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-weight: 500;
   outline: none;
   cursor: pointer;
 }
@@ -352,11 +353,6 @@ main.container {
 
 .faq__answer {
   margin-top: 1.6rem;
-}
-
-.faq[open] .faq__question {
-  color: var(--clr-accent);
-  font-weight: 500;
 }
 
 .faq[open] .faq__question::after {

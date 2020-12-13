@@ -10,6 +10,7 @@
   &__question {
     display: flex;
     justify-content: space-between;
+    font-weight: 500;
     outline: none;
     cursor: pointer;
     &::-webkit-details-marker {
@@ -26,11 +27,7 @@
   &__answer {
     margin-top: 1.6rem;
   }
-  &[open] .faq__question {
-    color: var(--clr-accent);
-    font-weight: 500;
-    &::after {
-      transform: rotate(0.5turn);
-    }
+  &[open] .faq__question::after {
+    transform: rotate(0.5turn);
   }
 }
