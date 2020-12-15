@@ -32,4 +32,13 @@ window.addEventListener("load", function () {
       });
     }
   }
+
+  const searchEl = document.querySelector("#search");
+
+  searchEl.addEventListener("keypress", (e) => {
+    const key = e.code || e.key;
+    if (key == "Enter") {
+      window.location = window.location;
+    }
+  });
 });
